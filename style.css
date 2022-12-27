@@ -1,0 +1,111 @@
+body{
+    font-family: poppins;
+}
+@page {
+    size: A4 potrait;
+  }
+.CV{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 1113px;
+    border: 5px solid black;
+    margin-top: -15px;
+}
+.grey-bg{
+    background-color: rgb(206, 206, 206);
+}
+.bold{
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+}
+.underline{
+    text-decoration: underline;
+}
+.item{
+    padding: 2px 2px;
+    text-align: center;
+    margin-left: -1px;
+}
+.tala-dotted-border{
+    border-bottom: 1px dotted black;
+    
+}
+.tala-solid-border{
+    border-bottom: 1px solid black;
+    
+}
+.border-right-bold{
+    
+    border-right: 5px solid black;
+}
+.border-bottom-bold{
+    border-bottom: 5px solid black;
+}
+.left-border{
+    border-left: 1px solid black;
+}
+.border-right{
+    border-right: 1px solid black;
+}
+.align-left{
+    text-align: left;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 50px 40px 302px 80px 60px 80px 50px auto;
+  }
+  
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 90px 200px 50px 50px 144px 129px  auto;
+  }
+.grid-container3{
+    display: grid;
+    grid-template-columns: 90px 300px 144px 129px auto;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: 90px 250px 194px auto 110px auto;
+}
+.grid-container5{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-container6{
+    display: grid;
+    grid-template-columns: 150px 285px auto ;
+}
+.grid-container7{
+    display: grid;
+    grid-template-columns: 150px 285px 100px auto ;
+}
+.grid-container8{
+    display: grid;
+    grid-template-columns: 190px 100px 160px  100px  140px 111px;
+
+}
+.grid-container9{
+    display: grid;
+    grid-template-columns: 190px auto;
+
+}
+.grid-container10{
+    display: grid;
+    grid-template-columns: 150px 210px 120px 100px 140px  auto;
+
+}
+.grid-container11{
+    display: grid;
+    grid-template-columns: 350px 100px 120px  auto;
+
+}
+
+/*
+.japanese{
+    padding: 20px; */
+
+
